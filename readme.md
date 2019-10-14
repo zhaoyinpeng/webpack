@@ -19,4 +19,5 @@
 4. 创建webpack.config.js用于编写设置。entry/output等基础配置
 5. 实现热加载需要webpack-dev-server插件，npm install后，在webpack.config.js中添加 devServer属性，并配置本地服务器设置。在package.json中添加scripts 运行本地服务器。
 6. loaders用于解析各种文件，css，less，es6等，在webpack.config.js中进行添加即可
-7. 
+7. 练习了插件html-webpack-plugin 热更新用到的（不知道和webpack-dev-server中的hot有啥区别），extract-text-webpack-plugin 给js文件添加hash值 clean-webpack-plugin清除打包后因hash值不同而没有删除的文件防止文件过多
+8. 
